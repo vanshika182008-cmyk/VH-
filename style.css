@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #F4F9FD;
+    color: #34495E;
+    line-height: 1.7;
+}
+
+
+.navbar {
+    background-color: #D6EAF8;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar h2 {
+    color: #356A91;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #345B78;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #78A9D0;
+}
+
+.hero {
+    text-align: center;
+    padding: 110px 20px;
+    background-color: #DCEFFA;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #315F85;
+}
+
+.hero h2 {
+    color: #699BC2;
+    margin: 10px 0;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+}
+
+.section {
+    padding: 65px 10%;
+}
+
+.section h2 {
+    color: #477DA5;
+    font-size: 28px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #C5DFEF;
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #E5F1F9;
+    padding: 22px;
+    margin: 18px 0;
+    border-radius: 12px;
+    border-left: 5px solid #91BCD9;
+}
+
+.card h3 {
+    color: #356A91;
+    margin-bottom: 8px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-container span {
+    background-color: #D6EAF8;
+    color: #356A91;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+#contact a {
+    color: #477DA5;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #D6EAF8;
+    color: #356A91;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 45px 7%;
+    }
+}
